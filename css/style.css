@@ -1,0 +1,70 @@
+/*--------Universal Styles--------*/
+*{
+    
+}
+/*--------Global Styles--------*/
+html{
+    height: 100%;
+    background-color: black;
+}
+body{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+}
+h1{
+    font-size: 4rem;
+}
+/*--------Header--------*/
+
+
+/*--------Main--------*/
+.intro{
+    border-bottom: .1rem solid white;
+}
+.intro p{
+    font-size: 2.5rem;
+}
+.intro p span{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.flex-box{
+    display: flex;
+}
+
+main .flex-box{
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-flow: row wrap;
+    padding: 1rem 0;
+}
+main .flex-box .bio-list{
+    
+    width: 33%;
+    height: 100%;
+    
+}
+main .flex-box .bio-list p{
+    padding: 0 1rem;
+
+
+}
+main .flex-box .bio-list p span{
+    text-transform: uppercase;
+}
+.div-1,
+.div-2{
+    border-right: .1rem solid gray;
+}
+/*--------Footer--------*/
+footer{
+    padding-top: 3rem;
+    border-top: .1rem solid white;
+}
+footer .flex-box{
+    gap: 2rem;
+}
